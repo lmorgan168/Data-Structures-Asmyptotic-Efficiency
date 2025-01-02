@@ -30,7 +30,7 @@ void print_usage() {
        << endl;
 }
 
-int WinMain(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
 
   // parse commandline arguments
 
