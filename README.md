@@ -61,16 +61,16 @@ To compare their performance, the algorithm is implemented using the following d
 
 | Data Structure       | Search Asymptotic Efficiency | Observed Elapsed Time (seconds) |
 |-----------------------|-----------------------------|---------------------------------|
-| Unsorted vector       | \( O(n) \)                  | 2.0208                         |
-| Unsorted linked list  | \( O(n) \)                  | 2.41412                        |
-| Hash table            | \( O(1) \) (amortized)      | 0.0064498                      |
-| Binary search tree    | \( O(\log n) \)             | 0.0185481                      |
+| Unsorted vector       | O(n)                        | 2.0208                         |
+| Unsorted linked list  | O(n)                        | 2.41412                        |
+| Hash table            | O(1) (amortized)            | 0.0064498                      |
+| Binary search tree    | O(log n)                    | 0.0185481                      |
 
 
 ### **Comparing Results** 
 
 
-Based off the table of results, we can see that the theoretical efficiencies align well with our experimental data. The hash table in this instance was fastest with \( O(1) \) amortized efficiency. It was **374 times faster** than the linked-list structure, which was the slowest. Theory also says that vectors are faster than linked lists due to a vector's elements having contiguous memory location compared to the random memory access of linked-lists nodes, and we also see that in our observed times. 
+Based off the table of results, we can see that the theoretical efficiencies align well with our experimental data. The hash table in this instance was fastest with O(1) amortized efficiency. It was **374 times faster** than the linked-list structure, which was the slowest. Theory also says that vectors are faster than linked lists due to a vector's elements having contiguous memory location compared to the random memory access of linked-lists nodes, and we also see that in our observed times. 
 
 
 ### **Conclusion**
